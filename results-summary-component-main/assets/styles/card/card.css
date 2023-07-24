@@ -1,0 +1,12 @@
+.card {
+    display: flex;
+    box-shadow: 21px 10px 30px rgba(17,37,212,0.1);
+    border-radius: 26px;
+    width: 690px;
+}
+
+@media screen and (max-width: 710px ) {
+    .card {
+        flex-direction: column;
+    }
+}
