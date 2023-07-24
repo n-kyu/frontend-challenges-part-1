@@ -1,4 +1,8 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+@import url(card/card.css);
+@import url(card/card-results.css);
+@import url(card/card-summary.css);
+
 :root {
     /* Primary Colors */
     --light-red: hsl(0, 100%, 67%);
@@ -15,21 +19,17 @@
     --pale-blue: hsl(221, 100%, 96%);
     --light-lavender: hsl(241, 100%, 89%);
     --dark-gray-blue: hsl(224, 30%, 27%);
-
-
 }
 
 body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 
-.card {
-    display: flex;
-    justify-content: space-between;
-    width: 360px;
-    padding: 16px;
-    border-radius: 22px;
+h1, h2, h3, h4, h5, p {
+    margin: 0;
 }
