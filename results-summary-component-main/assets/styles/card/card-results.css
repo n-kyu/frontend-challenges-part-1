@@ -1,0 +1,51 @@
+.card-results {
+    color: var(--white);
+    background: linear-gradient(180deg, var(--light-slate-blue), var(--light-royal-blue));
+    border-radius: 26px;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.card-results h3 {
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-top: 35px;
+}
+.circle-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, var(--violet-blue), var(--persian-blue));
+    height: 200px;
+    -moz-border-radius:150px;
+    -webkit-border-radius: 150px;
+    width: 200px;
+    margin-top: 35px;
+}
+
+.card-results h1 {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: hsla(221, 100%, 96%, 0.8)
+}
+
+.circle-score h2 {
+    font-size: 4em;
+    font-weight: 800;
+}
+.circle-score p {
+    color: hsla(0, 0%, 100%, 0.4);
+}
+
+.card-resume-score {
+    padding: 16px;
+    color: hsla(221, 100%, 96%, 0.7);
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: .9em;
+}
