@@ -7,14 +7,15 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .card-results h3 {
     font-size: 1.7em;
     font-weight: 700;
     margin-top: 35px;
+    letter-spacing: 1px;
 }
+
 .circle-score {
     display: flex;
     justify-content: center;
@@ -42,10 +43,44 @@
     color: hsla(0, 0%, 100%, 0.4);
 }
 
-.card-resume-score {
+.card-results-message {
     padding: 16px;
     color: hsla(221, 100%, 96%, 0.7);
     text-align: center;
     letter-spacing: 1px;
     font-size: .9em;
+}
+
+@media screen and (max-width: 710px ) { 
+    .card-results {
+        border-radius: 0 0 36px 36px;
+    }
+
+    .card-results h1 {
+        font-size: 1.1em;
+    }
+
+    .card-results h3 {
+        font-size: 1.3em;   
+        margin-top: 25px;
+    }
+
+    .circle-score { 
+        height: 150px;
+        width: 150px;
+    }
+
+    .circle-score h2 {
+        font-size: 3em;
+        font-weight: 800;
+    }
+
+    .circle-score p {
+        color: hsla(0, 0%, 100%, 0.4);
+        font-size: .8em;
+    }
+
+    .card-results-message {
+        font-size: .8em;
+    }
 }
