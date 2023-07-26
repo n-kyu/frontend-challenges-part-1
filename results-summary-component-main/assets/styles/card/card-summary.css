@@ -65,17 +65,16 @@
 .summary-button {
     color: var(--white);
     background-color: var(--dark-gray-blue);
-    border: 1px solid var(--dark-gray-blue);
+    border-style: none;
     padding: 20px;
     border-radius: 32px;
     margin-top: 50px;
     cursor: pointer;
-    transition: .3s ease-in;
+    transition: .1s ease-in-out;
 }
 
 .summary-button:hover {
-    background-color: var(--light-lavender);
-    color: var(--dark-gray-blue);
+    background: linear-gradient(180deg, var(--light-slate-blue), var(--light-royal-blue));;
 }
 
 @media screen and (max-width: 710px ) { 
