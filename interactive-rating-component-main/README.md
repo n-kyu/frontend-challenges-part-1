@@ -17,7 +17,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
--   Solution URL: [Reposiroty](https://github.com/n-kyu/frontendmentor-challenge/tree/main/interactive-rating-component-main)
+-   Solution URL: [Repository](https://github.com/n-kyu/frontendmentor-challenge/tree/main/interactive-rating-component-main)
 -   Live Site URL: [Vercel](https://frontendmentor-challenge-m6nc.vercel.app/)
 
 ### Built with
