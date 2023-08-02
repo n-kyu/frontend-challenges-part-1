@@ -10,10 +10,15 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 -   [Useful resources](#useful-resources)
 
 ### Screenshot
+# Desktop design
+<p align="center">
+  <img src="https://github.com/n-kyu/frontendmentor-challenge/assets/112785244/1cccace7-7a1b-489f-bdb4-34b6b25b01c4" alt="Desktop" />
+</p>
 
-![Destktop](https://github.com/n-kyu/frontendmentor-challenge/assets/112785244/1cccace7-7a1b-489f-bdb4-34b6b25b01c4)
-
-![Mobile](https://github.com/n-kyu/frontendmentor-challenge/assets/112785244/92b329be-6aed-4fd2-bb72-11aba83b299c)
+# Mobile design
+<p align="center">
+  <img src="https://github.com/n-kyu/frontendmentor-challenge/assets/112785244/92b329be-6aed-4fd2-bb72-11aba83b299c" alt="Mobile" />
+</p>
 
 ### Links
 
