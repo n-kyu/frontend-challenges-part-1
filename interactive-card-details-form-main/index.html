@@ -28,13 +28,23 @@
                     </span>
                 </div>
                 <div class="card-rate">
-                    <span id="rate-1" class="card-rate-score">1</span>
-                    <span class="card-rate-score">2</span>
-                    <span class="card-rate-score">3</span>
-                    <span class="card-rate-score">4</span>
-                    <span class="card-rate-score">5</span>
+                    <span class="card-rate-score" onclick="selectRating(1)"
+                        >1</span
+                    >
+                    <span class="card-rate-score" onclick="selectRating(2)"
+                        >2</span
+                    >
+                    <span class="card-rate-score" onclick="selectRating(3)"
+                        >3</span
+                    >
+                    <span class="card-rate-score" onclick="selectRating(4)"
+                        >4</span
+                    >
+                    <span class="card-rate-score" onclick="selectRating(5)"
+                        >5</span
+                    >
                 </div>
-                <button class="card-rate-button" id="submit-button">
+                <button class="card-rate-button" onclick="submited()">
                     SUBMIT
                 </button>
             </div>
@@ -46,7 +56,7 @@
                     class="card-image-thank-you"
                 />
                 <div class="card-result-rating">
-                    You selected&nbsp;<span class="card-result-value">1</span
+                    You selected&nbsp;<span class="card-result-value"></span
                     >&nbsp;out of 5
                 </div>
                 <h2 class="card-result-title">Thank you!</h2>
@@ -64,5 +74,6 @@
                 >Frontend Mentor</a
             >. Coded by <a href="#">Your Name Here</a>.
         </div> -->
+        <script src="assets/app.js"></script>
     </body>
 </html>
