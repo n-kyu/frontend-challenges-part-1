@@ -37,8 +37,9 @@
     transition: .3s ease-in;
 }
 
-.card-rate-score:active {
-    background:var(--orange)
+.card-rate-score-active {
+    background:var(--orange);
+    color:var(--white)
 }
 
 .card-rate-button {
