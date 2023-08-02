@@ -1,0 +1,54 @@
+.card {
+    max-width: 400px;
+    padding: 45px;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(145deg, var(--dark-blue) 60%, var(--very-dark-blue));
+}
+
+.card-rating {
+    display: flex;
+    flex-direction: column;    
+}
+
+.active-rate {
+    background: var(--orange);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 510px) {
+    .card {
+        max-width: 350px;
+        padding: 35px;
+        border-radius: 26px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .card {
+        max-width: 300px;
+        padding: 30px;
+        border-radius: 26px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        max-width: 275px;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    .card {
+        max-width: 245px;
+    }
+
+}
