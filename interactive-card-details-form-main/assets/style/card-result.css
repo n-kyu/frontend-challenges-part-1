@@ -1,0 +1,25 @@
+.card-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-result-rating {
+    font-size: 15px;
+    margin-top: 25px;
+    color: var(--orange);
+    padding: 10px;
+    border-radius: 28px;
+    background: var(--light-grey-with-opacity);
+}
+
+.card-result-title {
+    margin-bottom: 0;
+}
+
+.card-result-text {
+    color: var(--light-grey);
+    text-align: center;
+    padding: 0px 20px;
+}
