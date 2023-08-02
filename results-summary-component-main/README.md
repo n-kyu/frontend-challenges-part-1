@@ -22,8 +22,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://github.com/n-kyu/frontendmentor-challenge/tree/main/results-summary-component-main)
--   Live Site URL: [Add live site URL here](https://frontendmentor-challenge-ngsrx8vy2-n-kyu.vercel.app/)
+-   Solution URL: [Repository](https://github.com/n-kyu/frontendmentor-challenge/tree/main/results-summary-component-main)
+-   Live Site URL: [Vercel](https://frontendmentor-challenge-ngsrx8vy2-n-kyu.vercel.app/)
 
 ### Built with
 
