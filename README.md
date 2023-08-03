@@ -18,10 +18,13 @@ This repository contains my completed challenges from the website [Frontend Ment
 
 The following is a list of completed challenges, along with their live demos:
 
-1. [Challenge 1 - QR Code](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
-2. [Challenge 2 - Summary Results](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)
-3. [Challenge 3 - Soon](https://github.com/n-kyu/frontend-mentor-challenges)
-4. [Challenge 4 - Soon](https://github.com/n-kyu/frontend-mentor-challenges)
+1. [Challenge 1 - QR Code](https://github.com/n-kyu/frontendmentor-challenge/tree/main/qr-code-component-main)
+2. [Challenge 2 - Summary Results](https://github.com/n-kyu/frontendmentor-challenge/tree/main/results-summary-component-main)
+3. [Challenge 3 - Interactive Rating Component](https://github.com/n-kyu/frontendmentor-challenge/tree/main/interactive-rating-component-main)
+4. [Challenge 4 - FAQ accordion card](https://github.com/n-kyu/frontendmentor-challenge/tree/main/faq-accordion-card-main)
+5. [Challenge 5 - Soon](https://www.frontendmentor.io/challenges)
+6. [Challenge 6 - Soon](https://www.frontendmentor.io/challenges)
+7. [Challenge 7 - Soon](https://www.frontendmentor.io/challenges)
 
 ## Technologies
 
