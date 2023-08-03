@@ -22,4 +22,5 @@
     color: var(--light-grey);
     text-align: center;
     padding: 0px 20px;
+    line-height: 1.5;
 }
