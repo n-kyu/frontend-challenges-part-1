@@ -11,13 +11,14 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Screenshot
 
+# Desktop Design
 ![Desktop](https://github.com/n-kyu/frontendmentor-challenge/assets/112785244/ff6d8ae5-17ea-4b54-bfdb-d2cc0d2a86e1)
 ![Desktop - 2](https://github.com/n-kyu/frontendmentor-challenge/assets/112785244/b8a05f3c-e8aa-428b-a2a2-63a482c8d202)
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Repository](https://github.com/n-kyu/frontendmentor-challenge/tree/main/interactive-rating-component-main)
+-   Live Site URL: [Vercel](https://frontendmentor-challenge-m6nc.vercel.app/)
 
 ### Built with
 
@@ -28,5 +29,4 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Useful resources
 
--   [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
--   [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+-   [BGJAR](https://bgjar.com/) - I used BGJAR website to create the background
