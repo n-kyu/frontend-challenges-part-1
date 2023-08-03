@@ -1,0 +1,85 @@
+.card {
+    background: #fff;
+    border-radius: 2rem;
+    max-width: 900px;
+    margin: 9rem auto;
+    background-image: url('../images/bg-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: 80%;
+}
+
+.card__image-box {
+    display: none;
+}
+
+.card__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__image-desktop {
+    display: none;
+}
+
+.card__image-mobile {
+    width: 100%;
+    display: block;
+    margin: auto;
+    max-width: 15rem;
+    transform: translateY(-107px);
+}
+
+.card__faq {
+
+}
+
+.accordion__collapse {
+    display: none;
+    margin-top: 50px;
+}
+
+
+@media screen and (min-width: 900px) {
+    .card {
+        position: relative;
+        display: flex;
+        margin: 9rem auto;
+        background-image: url('../images/bg-pattern-desktop.svg');
+        background-size: 45%;
+        background-position: -13% center;
+
+    }
+
+    .card__image-box {
+        display: block;
+        position: absolute;
+        top: 57%;
+        left: 0;
+        transform: translate(-50%) translateY(-50%);
+        z-index: 1;
+    }
+    
+    .card__image,
+    .card__faq {
+        flex: 1;
+    }
+
+    .card__image {
+        padding-right: 2rem;
+        max-width: 400px;
+        display: flex;
+        align-items: center;
+        overflow: hidden;       
+    }
+
+    .card__image-desktop {
+        display: block;
+        transform: translateX(-4rem);
+    }
+
+    .card__image-mobile {
+        display: none;
+    }
+}
