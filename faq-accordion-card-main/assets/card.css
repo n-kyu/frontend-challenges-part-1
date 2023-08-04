@@ -3,7 +3,7 @@
     border-radius: 2rem;
     max-width: 900px;
     margin: 9rem auto;
-    padding: 0 2rem 3.5rem;
+    padding: 0 2rem 3.5rem 0;
     background-image: url('../images/bg-pattern-mobile.svg');
     background-repeat: no-repeat;
     background-position: center 0;
@@ -32,22 +32,21 @@
     transform: translateY(-107px);
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 950px) {
     .card {
         position: relative;
         display: flex;
         margin: 9rem auto;
         background-image: url('../images/bg-pattern-desktop.svg');
-        background-size: 45%;
-        background-position: -13% center;
+        background-size: 85%;
+        background-position: -330% 80%;
 
     }
 
     .card__image-box {
         display: block;
         position: absolute;
-        top: 57%;
-        left: 0;
+        top: 52%;
         transform: translate(-50%) translateY(-50%);
         z-index: 1;
     }

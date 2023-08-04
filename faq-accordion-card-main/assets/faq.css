@@ -55,7 +55,7 @@
     margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 900px) { 
+@media screen and (min-width: 950px) { 
     .card__faq {
         display: block;
         padding: 3rem 3rem 3rem 0;
