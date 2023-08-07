@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: translateY(-50px);
 }
 
 .card__faq h1 {
@@ -26,7 +27,6 @@
     margin: 1rem 2rem 1rem 0rem;
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
-    font-size: .9rem;
     color: var(--very-dsblue);
     cursor: pointer;
 }
@@ -76,9 +76,14 @@
     .card__faq {
         display: block;
         padding: 3rem 3rem 3rem 0;
+         transform: none;
     }
 
     .card__faq h1 {
         font-size: 2rem;
+    }
+
+    .accordion__question {
+        font-size: 1rem;
     }
 }
