@@ -28,8 +28,14 @@
     font-family: 'Kumbh Sans', sans-serif;
     font-size: .9rem;
     color: var(--very-dsblue);
-
+    cursor: pointer;
 }
+
+.accordion__question:hover {
+    color: var(--soft-red);
+    font-weight: 700;
+}
+
 .accordion__question::after {
     content: ' ';
     display: block;
