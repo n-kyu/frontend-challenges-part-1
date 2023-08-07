@@ -43,22 +43,19 @@
     transition: transform 300ms ease-in-out;
 }
 
-.accordion__question.open {
+.accordion__question.show {
     font-weight: 700;
 }
-.accordion__question.open::after {
+.accordion__question.show::after {
     transform: rotate(180deg);
 }
 
 .accordion__collapse.collapse {
     display: none;
-}
-
-.accordion__collapse.collapsing {
 
 }
 
-.accordion__collapse.collapse.open {
+.accordion__collapse.collapse.show {
     display: block;
 }
 
