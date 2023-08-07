@@ -7,7 +7,7 @@
     background-image: url('../images/bg-pattern-mobile.svg');
     background-repeat: no-repeat;
     background-position: center 0;
-    background-size: 80%;
+    background-size: 230px;
 }
 
 .card__image-box {
@@ -25,7 +25,6 @@
 }
 
 .card__image-mobile {
-    width: 100%;
     display: block;
     margin: auto;
     max-width: 15rem;
