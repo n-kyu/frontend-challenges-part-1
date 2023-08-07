@@ -46,6 +46,7 @@
 .accordion__question.show {
     font-weight: 700;
 }
+
 .accordion__question.show::after {
     transform: rotate(180deg);
 }
